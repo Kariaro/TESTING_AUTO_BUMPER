@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>TESTING_AUTO_BUMPER</groupId>
     <artifactId>TESTING_AUTO_BUMPER</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
