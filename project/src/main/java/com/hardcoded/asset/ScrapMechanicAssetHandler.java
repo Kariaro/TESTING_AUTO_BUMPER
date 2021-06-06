@@ -8,8 +8,6 @@ import com.hardcoded.db.types.*;
 import com.hardcoded.logger.Log;
 import com.hardcoded.logger.Log.Level;
 
-import valve.Steam;
-
 /**
  * This class is used to load and read all assets in the game ScrapMechanic.
  * 
@@ -38,7 +36,7 @@ public final class ScrapMechanicAssetHandler {
 		
 		Log.setLogLevel(Level.ALL);
 		LOGGER.info("Trying to find the game 'Scrap Mechanic'");
-		File game_path = Steam.findGamePath("Scrap Mechanic");
+		File game_path = null;//Steam.findGamePath("Scrap Mechanic");
 		
 		LOGGER.info("Found game path: %s", game_path);
 		

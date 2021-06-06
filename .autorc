@@ -19,7 +19,13 @@
         ]
       }
     ],
-    ["maven", {"mavenReleaseGoals": ["package"]}]
+    [
+      "maven",
+      {
+        "mavenCommand": "mvn",
+        "mavenReleaseGoals": ["package"]
+      }
+    ]
   ],
   "name": "HardCoded"
 }

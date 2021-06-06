@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>TESTING_AUTO_BUMPER</groupId>
     <artifactId>TESTING_AUTO_BUMPER</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.5</version>
 
     <dependencies>
         <dependency>
@@ -31,12 +31,6 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.11.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>sm.hardcoded.reader</groupId>
-            <artifactId>sm-reader</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>

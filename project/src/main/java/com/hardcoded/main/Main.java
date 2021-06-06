@@ -2,7 +2,6 @@ package com.hardcoded.main;
 
 import com.hardcoded.game.World;
 import com.hardcoded.logger.Log;
-import com.hardcoded.lwjgl.LwjglWorldViewer;
 import com.hardcoded.sm.api.WorldHeader;
 import com.hardcoded.sm.api.WorldHeader.Mod;
 
@@ -10,8 +9,6 @@ public class Main {
 	private static final Log LOGGER = Log.getLogger();
 	
 	public static void main(String[] args) throws Exception {
-		LwjglWorldViewer viewer = new LwjglWorldViewer();
-		viewer.start();
 		//new Main();
 	}
 	

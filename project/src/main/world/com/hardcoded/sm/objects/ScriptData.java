@@ -3,9 +3,6 @@ package com.hardcoded.sm.objects;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.hardcoded.data.Memory;
-import com.hardcoded.lua.LuaDeserializer;
-import com.hardcoded.sm.lua.Data;
 import com.hardcoded.sm.sqlite.SQLite;
 import com.hardcoded.sm.sqlite.SQLiteObject;
 import com.hardcoded.util.Util;
@@ -56,23 +53,23 @@ public class ScriptData extends SQLiteObject {
 		
 		if(set.isClosed()) return;
 		byte[] data = set.getBytes(1);
-		Memory mem = new Memory(data);
-		// System.out.println(StringUtils.getHexString(data, 4096, 64));
-		
-		
-		int id_0_4 = Util.getInt(data, 0, true);
-		int worldId_4_2 = Short.toUnsignedInt(Util.getShort(data, 4, true));
-		int channel_6_1 = Byte.toUnsignedInt(data[6]);
-		int flags_7_1 = Byte.toUnsignedInt(data[7]);
-		int size_8_4 = Util.getInt(data, 8, true);
-		mem.move(12); // Skip header
-		
-		System.out.println("id_0_4: " + id_0_4);
-		System.out.println("worldId_4_2: " + worldId_4_2);
-		System.out.println("channel_6_1: " + channel_6_1);
-		System.out.println("flags_7_1: " + flags_7_1);
-		System.out.println("size_8_4: " + size_8_4);
-		System.out.println();
+//		Memory mem = new Memory(data);
+//		// System.out.println(StringUtils.getHexString(data, 4096, 64));
+//		
+//		
+//		int id_0_4 = Util.getInt(data, 0, true);
+//		int worldId_4_2 = Short.toUnsignedInt(Util.getShort(data, 4, true));
+//		int channel_6_1 = Byte.toUnsignedInt(data[6]);
+//		int flags_7_1 = Byte.toUnsignedInt(data[7]);
+//		int size_8_4 = Util.getInt(data, 8, true);
+//		mem.move(12); // Skip header
+//		
+//		System.out.println("id_0_4: " + id_0_4);
+//		System.out.println("worldId_4_2: " + worldId_4_2);
+//		System.out.println("channel_6_1: " + channel_6_1);
+//		System.out.println("flags_7_1: " + flags_7_1);
+//		System.out.println("size_8_4: " + size_8_4);
+//		System.out.println();
 		
 		//System.exit(0);
 	}
@@ -82,32 +79,32 @@ public class ScriptData extends SQLiteObject {
 		if(set.isClosed()) return;
 		
 		byte[] data = set.getBytes(1);
-		Memory mem = new Memory(data);
-		
-//		int id_0_4 = Util.getInt(data, 0, true);
-//		int worldId_4_2 = Short.toUnsignedInt(Util.getShort(data, 4, true));
-//		int channel_6_1 = Byte.toUnsignedInt(data[6]);
-//		int flags_7_1 = Byte.toUnsignedInt(data[7]);
-		int size_8_4 = Util.getInt(data, 8, true);
-		mem.move(12); // Skip header
-		
-//		System.out.println("id_0_4: " + id_0_4);
-//		System.out.println("worldId_4_2: " + worldId_4_2);
-//		System.out.println("channel_6_1: " + channel_6_1);
-//		System.out.println("flags_7_1: " + flags_7_1);
-//		System.out.println("size_8_4: " + size_8_4);
-//		System.out.println();
-		
-		Data obj = new Data(LuaDeserializer.Deserialize(mem, size_8_4));
-		
-		{
-			TileData.setWorldTileIds(obj);
-			
-//			System.out.println("{");
-//			for(Object key : obj.keySet()) {
-//				System.out.printf("    key=(%s)\n", key);
-//			}
-//			System.out.println("}");
-		}
+//		Memory mem = new Memory(data);
+//		
+////		int id_0_4 = Util.getInt(data, 0, true);
+////		int worldId_4_2 = Short.toUnsignedInt(Util.getShort(data, 4, true));
+////		int channel_6_1 = Byte.toUnsignedInt(data[6]);
+////		int flags_7_1 = Byte.toUnsignedInt(data[7]);
+//		int size_8_4 = Util.getInt(data, 8, true);
+//		mem.move(12); // Skip header
+//		
+////		System.out.println("id_0_4: " + id_0_4);
+////		System.out.println("worldId_4_2: " + worldId_4_2);
+////		System.out.println("channel_6_1: " + channel_6_1);
+////		System.out.println("flags_7_1: " + flags_7_1);
+////		System.out.println("size_8_4: " + size_8_4);
+////		System.out.println();
+//		
+//		Data obj = new Data(LuaDeserializer.Deserialize(mem, size_8_4));
+//		
+//		{
+//			TileData.setWorldTileIds(obj);
+//			
+////			System.out.println("{");
+////			for(Object key : obj.keySet()) {
+////				System.out.printf("    key=(%s)\n", key);
+////			}
+////			System.out.println("}");
+//		}
 	}
 }

@@ -2,8 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/world"/>
-	<classpathentry kind="src" path="src/main/display"/>
-	<classpathentry kind="src" path="src/main/steam"/>
 	<classpathentry kind="lib" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
@@ -16,6 +14,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LWJGL3"/>
-	<classpathentry kind="output" path="../testing_auto_bumper_configs/target/classes"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
