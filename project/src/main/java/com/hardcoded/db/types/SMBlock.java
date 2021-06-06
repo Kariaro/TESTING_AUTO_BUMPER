@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @since v0.1
  */
 public class SMBlock {
-	public static final String VERSION_TEST = "0.0.4";
+	public static final String VERSION_TEST = "0.0.5";
 	
 	public UUID uuid;
 	public String name;
