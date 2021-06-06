@@ -5,25 +5,21 @@
       {
         "files": [
           {
-            "path": "project/src/main/java/com/hardcoded/db/types/SMBlock.java"
+            "path": "src/main/java/com/hardcoded/db/types/SMBlock.java",
+            "safeMatching": false
           },
           {
-            "path": "project/src/main/java/com/hardcoded/util/StringUtils.java"
+            "path": "src/main/java/com/hardcoded/util/StringUtils.java",
           },
           {
-            "path": "project/src/main/java/com/hardcoded/asset/ScrapMechanicAssetHandler.java"
+            "path": "src/main/java/com/hardcoded/asset/ScrapMechanicAssetHandler.java",
+            "safeMatching": false
           },
           {
-            "path": "project/res/test/test_0.js"
+            "path": "res/test/test_0.js",
+            "safeMatching": false
           }
         ]
-      }
-    ],
-    [
-      "maven",
-      {
-        "mavenCommand": "mvn",
-        "mavenReleaseGoals": ["package"]
       }
     ]
   ],
