@@ -13,6 +13,19 @@
 
 # v0.0.3 (Sun Jun 06 2021)
 
+#### ⚠️ Pushed to `main`
+
+-  ([@Kariaro](https://github.com/Kariaro))
+- testing ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
+# v0.0.3 (Sun Jun 06 2021)
+
 
 
 ---
