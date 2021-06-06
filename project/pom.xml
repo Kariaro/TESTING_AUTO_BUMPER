@@ -1,44 +1,48 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>TESTING_AUTO_BUMPER</groupId>
-  <artifactId>TESTING_AUTO_BUMPER</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
-    <dependency>
-	  <groupId>org.joml</groupId>
-	  <artifactId>joml</artifactId>
-	  <version>1.9.24</version>
-	</dependency>
-	
-	<dependency>
-      <groupId>org.xerial</groupId>
-      <artifactId>sqlite-jdbc</artifactId>
-      <version>3.31.1</version>
-	</dependency>
-	
-	<dependency>
-	  <groupId>com.fasterxml.jackson.core</groupId>
-	  <artifactId>jackson-core</artifactId>
-	  <version>2.11.0</version>
-	</dependency>
-	
-	<dependency>
-	  <groupId>com.fasterxml.jackson.core</groupId>
-	  <artifactId>jackson-databind</artifactId>
-	  <version>2.11.0</version>
-	</dependency>
-	
-	<dependency>
-	  <groupId>sm.hardcoded.reader</groupId>
-	  <artifactId>sm-reader</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
-	</dependency>
-	
-	<dependency>
-	  <groupId>org.lz4</groupId>
-	  <artifactId>lz4-java</artifactId>
-	  <version>1.7.1</version>
-	</dependency>
-  </dependencies>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>TESTING_AUTO_BUMPER</groupId>
+    <artifactId>TESTING_AUTO_BUMPER</artifactId>
+    <version>0.0.1</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.joml</groupId>
+            <artifactId>joml</artifactId>
+            <version>1.9.24</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.31.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>sm.hardcoded.reader</groupId>
+            <artifactId>sm-reader</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.lz4</groupId>
+            <artifactId>lz4-java</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+    </dependencies>
 </project>

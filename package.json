@@ -8,6 +8,6 @@
     "auto": "^10.29.2"
   },
   "scripts": {
-	"run-auto": "npx --prefix=C:/Users/Admin/git/testing_auto_bumper_configs/node_modules --userconfig=./.npmrc auto -vv shipit"
+	"run-auto": "cd project & npx --prefix project auto -vv shipit"
   }
 }
