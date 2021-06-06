@@ -1030,7 +1030,7 @@ author-regex@^1.0.0:
 "auto-plugin-auto-bumper@file:./../auto/plugins/auto-bumper":
   version "10.29.2"
   dependencies:
-    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-ddb474e5-0db2-4914-b2dd-59bc909a5ede-1622983584568/packages/core"
+    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-9d53afb2-419c-413d-8281-a0b1803c5740-1622993717953/packages/core"
     "@auto-it/maven" "^10.29.2"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
     "@babel/preset-flow" "^7.13.13"
