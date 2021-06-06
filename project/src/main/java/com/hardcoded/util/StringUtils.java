@@ -1,14 +1,14 @@
 package com.hardcoded.util;
 
 public final class StringUtils {
-	public static final String A = "0.0.1-SNAPSHOT";
-	public static final String B = "0.0.1-SNAPSHOT"; // $auto-bumper
-	public static final String C = "0.0.1-SNAPSHOT";
-	public static final String D = "0.0.1-SNAPSHOT"; // $auto-bumper
-	public static final String E = "0.0.1-SNAPSHOT";
-	public static final String F = "0.0.1-SNAPSHOT"; // $auto-bumper
-	public static final String G = "0.0.1-SNAPSHOT";
-	public static final String VERSION_TEST = "0.0.1-SNAPSHOT";
+	public static final String A = "0.0.1";
+	public static final String B = "0.0.1"; // $auto-bumper
+	public static final String C = "0.0.1";
+	public static final String D = "0.0.1"; // $auto-bumper
+	public static final String E = "0.0.1";
+	public static final String F = "0.0.1"; // $auto-bumper
+	public static final String G = "0.0.1";
+	public static final String VERSION_TEST = "0.0.1";
 	
 	public static String removeComments(String string) {
 		return string.replaceAll("//.*?[\r\n]+", "\r\n");
