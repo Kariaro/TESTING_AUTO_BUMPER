@@ -1,3 +1,22 @@
+# v0.0.8 (Sun Jun 06 2021)
+
+#### ⚠️ Pushed to `main`
+
+- ci: Maven pom.xml (25615845+Kariaro@users.noreply.github.com)
+- Eclipse prefs (25615845+Kariaro@users.noreply.github.com)
+- Testing ([@Kariaro](https://github.com/Kariaro))
+-  ([@Kariaro](https://github.com/Kariaro))
+- Fixed errors ([@Kariaro](https://github.com/Kariaro))
+- Adding missing files ([@Kariaro](https://github.com/Kariaro))
+- Initial commit ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 2
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+- Kariaro (25615845+Kariaro@users.noreply.github.com)
+
+---
+
 # v0.0.7 (Sun Jun 06 2021)
 
 #### ⚠️ Pushed to `main`
