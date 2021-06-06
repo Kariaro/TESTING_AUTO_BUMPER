@@ -372,7 +372,7 @@ author-regex@^1.0.0:
 "auto-plugin-auto-bumper@file:./../auto/plugins/auto-bumper":
   version "10.29.2"
   dependencies:
-    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-21586750-84c0-478d-a0f7-b82180cce3ad-1622978848863/packages/core"
+    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-32474afe-5a62-4eb1-97fe-bd42e699219d-1622979497105/packages/core"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     tslib "1.10.0"
