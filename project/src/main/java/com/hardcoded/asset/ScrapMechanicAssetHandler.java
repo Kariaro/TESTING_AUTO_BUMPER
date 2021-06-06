@@ -15,7 +15,7 @@ import com.hardcoded.logger.Log.Level;
  * @since v0.1
  */
 public final class ScrapMechanicAssetHandler {
-	public static final String VERSION_TEST = "0.0.6";
+	public static final String VERSION_TEST = "0.0.7";
 	
 	private static final Log LOGGER = Log.getLogger();
 	
