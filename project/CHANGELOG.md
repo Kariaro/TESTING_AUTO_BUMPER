@@ -1,3 +1,19 @@
+# v0.0.6 (Sun Jun 06 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Testing ([@Kariaro](https://github.com/Kariaro))
+-  ([@Kariaro](https://github.com/Kariaro))
+- Fixed errors ([@Kariaro](https://github.com/Kariaro))
+- Adding missing files ([@Kariaro](https://github.com/Kariaro))
+- Initial commit ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.5 (Sun Jun 06 2021)
 
 #### ⚠️ Pushed to `main`
