@@ -21,6 +21,13 @@
           }
         ]
       }
+    ],
+    [
+      "maven",
+      {
+        "mavenCommand": "mvn",
+        "mavenReleaseGoals": ["package"]
+      }
     ]
   ],
   "name": "HardCoded"
