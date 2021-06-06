@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    [
+      "auto-plugin-auto-bumper",
+      {
+        "files": [
+          {
+            "path": "src/main/java/com/hardcoded/db/types/SMBlock.java"
+          },
+          {
+            "path": "src/main/java/com/hardcoded/util/StringUtils.java"
+          },
+          {
+            "path": "src/main/java/com/hardcoded/asset/ScrapMechanicAssetHandler.java"
+          },
+          {
+            "path": "res/test/test_0.js"
+          }
+        ]
+      }
+    ],
+    ["maven", {"mavenReleaseGoals": ["package"]}]
+  ],
+  "name": "HardCoded"
+}
