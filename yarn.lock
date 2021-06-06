@@ -953,7 +953,7 @@ author-regex@^1.0.0:
 "auto-plugin-auto-bumper@file:./../auto/plugins/auto-bumper":
   version "10.29.2"
   dependencies:
-    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-25071b8e-c108-44dd-b7ad-85d007a3996b-1623009449809/packages/core"
+    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-35a6e5b9-ebff-4384-9375-e0a285a60cb3-1623009509116/packages/core"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     jest "^27.0.4"
