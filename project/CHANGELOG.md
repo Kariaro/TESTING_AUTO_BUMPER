@@ -48,6 +48,18 @@
 
 # v0.0.2 (Sun Jun 06 2021)
 
+#### ⚠️ Pushed to `main`
+
+- ci: Updated .autorc (25615845+Kariaro@users.noreply.github.com)
+
+#### Authors: 1
+
+- Kariaro (25615845+Kariaro@users.noreply.github.com)
+
+---
+
+# v0.0.2 (Sun Jun 06 2021)
+
 
 
 ---
