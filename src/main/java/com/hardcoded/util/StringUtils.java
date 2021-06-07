@@ -1,7 +1,16 @@
 package com.hardcoded.util;
 
 public final class StringUtils {
-	public static final String A = "0.0.1";
+	// $auto-bumper-line
+	public static final String A_TEST = "0.0.12";
+	
+	// $auto-bumper-line
+	public static final String B_TEST = "0.0.12";
+	
+	// Nothing
+	public static final String C_TEST = "0.0.12";
+	
+	
 	public static final String B = "0.0.12"; // $auto-bumper
 	public static final String C = "0.0.1";
 	public static final String D = "0.0.12"; // $auto-bumper
@@ -9,6 +18,42 @@ public final class StringUtils {
 	public static final String F = "0.0.12"; // $auto-bumper
 	public static final String G = "0.0.1";
 	public static final String VERSION_TEST = "0.0.1";
+	
+	// $auto-bumper-line
+	public static final String[] ALLOWED_VERSIONS = new String[] {
+			LATEST_VERSION,
+			"1.9.6",
+			"1.9.5",
+			"1.9.4",
+			"1.9.3",
+			"1.9.2",
+			"1.9.1",
+			"1.9",
+			"1.8.2",
+			"1.8.1",
+			"1.8",
+			"1.7.5",
+			"1.7.4",
+			"1.7.3",
+			"1.7.2",
+			"1.7.1",
+			"1.7",
+			"1.6.2",
+			"1.6.1",
+			"1.6",
+			"1.5.2",
+			"1.5.1",
+			"1.5",
+			"1.4.2",
+			"1.4.1",
+			"1.4",
+			"1.3.4",
+			"1.3.3",
+			"1.3.2",
+			"1.3.1",
+			"1.3"
+
+	};
 	
 	public static String removeComments(String string) {
 		return string.replaceAll("//.*?[\r\n]+", "\r\n");
