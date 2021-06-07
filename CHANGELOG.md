@@ -1,3 +1,15 @@
+# v0.0.14 (Mon Jun 07 2021)
+
+#### 🐛 Bug Fix
+
+- test: Update source again [#12](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/12) ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.13 (Mon Jun 07 2021)
 
 #### 🐛 Bug Fix
