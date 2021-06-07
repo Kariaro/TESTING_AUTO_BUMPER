@@ -7,3 +7,6 @@ Fixed action to use JDK-14. Trying pull request again.
 
 Test 3:
 Npx path should not be in the correct directory hopefully.
+
+Test 4:
+Updating branch and making sure that commit message header is printed correctly.
