@@ -1,3 +1,28 @@
+# v0.0.11 (Mon Jun 07 2021)
+
+#### 🐛 Bug Fix
+
+- Updated pom to correctly include the plugin [#8](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/8) ([@Kariaro](https://github.com/Kariaro))
+- Updated pom.xml to be the only active pom file [#7](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/7) ([@Kariaro](https://github.com/Kariaro))
+- Fix GitAction build [#6](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/6) ([@Kariaro](https://github.com/Kariaro))
+- breaking: Moved files for better project management [#5](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/5) ([@Kariaro](https://github.com/Kariaro))
+- Test 3 [#4](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/4) ([@Kariaro](https://github.com/Kariaro))
+- Main dev [#3](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/3) ([@Kariaro](https://github.com/Kariaro))
+- Testing pull request again [#2](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/2) ([@Kariaro](https://github.com/Kariaro))
+- test: Deploying push to test actions [#1](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/1) ([@Kariaro](https://github.com/Kariaro))
+
+#### ⚠️ Pushed to `main`
+
+- Update .gitignore ([@Kariaro](https://github.com/Kariaro))
+- Update build.yml ([@Kariaro](https://github.com/Kariaro))
+- Create build.yml ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.10 (Mon Jun 07 2021)
 
 #### ⚠️ Pushed to `main`
