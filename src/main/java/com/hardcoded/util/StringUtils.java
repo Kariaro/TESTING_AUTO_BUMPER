@@ -16,7 +16,7 @@ public final class StringUtils {
 	public static final String D = "0.0.13"; // $auto-bumper
 	public static final String E = "0.0.1";
 	public static final String F = "0.0.13"; // $auto-bumper
-	public static final String G = "0.0.1";
+	public static final String LATEST_VERSION = "0.0.1";
 	public static final String VERSION_TEST = "0.0.1";
 	
 	// $auto-bumper-line
