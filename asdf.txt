@@ -10,3 +10,6 @@ Npx path should not be in the correct directory hopefully.
 
 Test 4:
 Updating branch and making sure that commit message header is printed correctly.
+
+Test 5:
+Check if source updates once again. Making sure the plugin works correctly.
