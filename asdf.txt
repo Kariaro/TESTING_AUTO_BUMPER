@@ -13,3 +13,6 @@ Updating branch and making sure that commit message header is printed correctly.
 
 Test 5:
 Check if source updates once again. Making sure the plugin works correctly.
+
+Test 6:
+Update source without prior updates.
