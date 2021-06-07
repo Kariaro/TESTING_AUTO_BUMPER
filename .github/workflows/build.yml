@@ -37,7 +37,7 @@ jobs:
           java-version: 14
 
       - name: Build with Maven
-        run: mvn -B package --file project/pom.xml
+        run: mvn -B package --file pom.xml
 
       - name: Create Release
         env:
