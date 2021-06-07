@@ -1,3 +1,15 @@
+# v0.0.12 (Mon Jun 07 2021)
+
+#### 🐛 Bug Fix
+
+- Update test [#9](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/9) ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.11 (Mon Jun 07 2021)
 
 #### 🐛 Bug Fix
