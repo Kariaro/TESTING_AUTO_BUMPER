@@ -1,3 +1,17 @@
+# v0.0.13 (Mon Jun 07 2021)
+
+#### ⚠️ Pushed to `main-dev`
+
+- refactor: Added autobumper script (25615845+Kariaro@users.noreply.github.com)
+- test: Added testing methods ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 2
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+- Kariaro (25615845+Kariaro@users.noreply.github.com)
+
+---
+
 # v0.0.12 (Mon Jun 07 2021)
 
 #### 🐛 Bug Fix

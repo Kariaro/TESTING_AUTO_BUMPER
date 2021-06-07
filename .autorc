@@ -9,7 +9,7 @@
             "safeMatching": false
           },
           {
-            "path": "src/main/java/com/hardcoded/util/StringUtils.java",
+            "path": "src/main/java/com/hardcoded/util/StringUtils.java"
           },
           {
             "path": "src/main/java/com/hardcoded/asset/ScrapMechanicAssetHandler.java",
@@ -18,15 +18,9 @@
           {
             "path": "res/test/test_0.js",
             "safeMatching": false
-          }
+          },
+          { "path": "res/test/test_1.js", "scripted": true }
         ]
-      }
-    ],
-    [
-      "maven",
-      {
-        "mavenCommand": "mvn",
-        "mavenReleaseGoals": ["package"]
       }
     ]
   ],
