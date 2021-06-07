@@ -3,18 +3,56 @@
 
 
 "@auto-it/bot-list@10.29.2":
-  version "0.0.0"
-  uid ""
-
-"@auto-it/bot-list@link:../auto/packages/bot-list":
-  version "0.0.0"
-  uid ""
+  version "10.29.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.29.2.tgz#a47c5ce59c2eff8edc3ce05859a400aee11d0694"
+  integrity sha512-dkrzfeIxN1QBXHmV93DfMEMu2dXG9Op0fjUqKKWSgDp7JYCRHvC6Qp0GpDf5OQfS6JC50ClLq7+1feYlzVtbqg==
 
 "@auto-it/core@10.29.2":
-  version "0.0.0"
-  uid ""
+  version "10.29.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.29.2.tgz#ba5f6c2e4f04fb499f5b65baa6c6e7d6e372e458"
+  integrity sha512-yVgG14CkDnKtNTa4/TK8wT/PORls12e/75ckZ8QIWhcC9+GAshSRusYcBuKbpxcwJ7lumgpPahRisUlhh+asDg==
+  dependencies:
+    "@auto-it/bot-list" "10.29.2"
+    "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
+    "@octokit/plugin-enterprise-compatibility" "^1.2.2"
+    "@octokit/plugin-retry" "^3.0.1"
+    "@octokit/plugin-throttling" "^3.2.0"
+    "@octokit/rest" "^18.0.0"
+    await-to-js "^3.0.0"
+    chalk "^4.0.0"
+    cosmiconfig "7.0.0"
+    deepmerge "^4.0.0"
+    dotenv "^8.0.0"
+    endent "^2.0.1"
+    enquirer "^2.3.4"
+    env-ci "^5.0.1"
+    fast-glob "^3.1.1"
+    fp-ts "^2.5.3"
+    fromentries "^1.2.0"
+    gitlog "^4.0.3"
+    https-proxy-agent "^5.0.0"
+    import-cwd "^3.0.0"
+    import-from "^3.0.0"
+    io-ts "^2.1.2"
+    lodash.chunk "^4.2.0"
+    log-symbols "^4.0.0"
+    node-fetch "2.6.1"
+    parse-author "^2.0.0"
+    parse-github-url "1.0.2"
+    pretty-ms "^7.0.0"
+    requireg "^0.2.2"
+    semver "^7.0.0"
+    signale "^1.4.0"
+    tapable "^2.2.0"
+    terminal-link "^2.1.1"
+    tinycolor2 "^1.4.1"
+    ts-node "^9.1.1"
+    tslib "2.1.0"
+    type-fest "^0.21.1"
+    typescript-memoize "^1.0.0-alpha.3"
+    url-join "^4.0.0"
 
-"@auto-it/core@link:../auto/packages/core":
+"@auto-it/core@link:../../packages/core":
   version "0.0.0"
   uid ""
 
@@ -950,10 +988,12 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-"auto-plugin-auto-bumper@file:./../auto/plugins/auto-bumper":
+auto-plugin-auto-bumper@^10.29.2:
   version "10.29.2"
+  resolved "https://registry.yarnpkg.com/auto-plugin-auto-bumper/-/auto-plugin-auto-bumper-10.29.2.tgz#a1ab99f568908681dd54ddfbc52baed1e56e62ee"
+  integrity sha512-xJzvX/zLpz6VBgbLdVlikSmHvHUOYpDYDwewUWIAb/Gmz4kTv3XFrlGpVU0CQTP7P+i7HZYa9dAO3WkBdAoAng==
   dependencies:
-    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-7e5af4cc-229e-4a3c-a89d-faafcbec8e0d-1623010479932/packages/core"
+    "@auto-it/core" "link:../../AppData/Local/Yarn/Cache/v6/npm-auto-plugin-auto-bumper-10.29.2-a1ab99f568908681dd54ddfbc52baed1e56e62ee-integrity/packages/core"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     jest "^27.0.4"
