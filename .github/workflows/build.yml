@@ -37,10 +37,10 @@ jobs:
           java-version: 8
 
       - name: Build with Maven
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file project/pom.xml
 
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx auto shipit
+          cd project & npx auto shipit
