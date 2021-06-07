@@ -1,7 +1,7 @@
 {
   "package-name": "TESTING_AUTO_BUMPER",
   "dependencies": {
-    "auto-plugin-auto-bumper": "file:./../auto/plugins/auto-bumper"
+    "auto-plugin-auto-bumper": "^10.29.2"
   },
   "devDependencies": {
     "@auto-it/maven": "^10.29.2",
