@@ -12,6 +12,16 @@
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
     </properties>
+    
+    <build>
+    	<plugins>
+    		<plugin>
+	            <groupId>org.codehaus.mojo</groupId>
+	            <artifactId>versions-maven-plugin</artifactId>
+	            <version>2.7</version>
+	        </plugin>
+    	</plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -43,11 +53,5 @@
             <artifactId>lz4-java</artifactId>
             <version>1.7.1</version>
         </dependency>
-        
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>versions-maven-plugin</artifactId>
-            <version>2.7</version>
-        </plugin>
     </dependencies>
 </project>
