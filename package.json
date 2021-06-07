@@ -9,6 +9,6 @@
   },
   "scripts": {
     "prerun-auto": "yarn & git add yarn.lock",
-    "run-auto": "cd project & npx auto shipit -v"
+    "run-auto": "npx auto shipit -v"
   }
 }
