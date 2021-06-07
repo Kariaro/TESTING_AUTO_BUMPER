@@ -4,3 +4,6 @@ This file has now changed and I want to try the auto action now :D
 
 Test 2:
 Fixed action to use JDK-14. Trying pull request again.
+
+Test 3:
+Npx path should not be in the correct directory hopefully.
