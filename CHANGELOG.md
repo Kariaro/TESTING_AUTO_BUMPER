@@ -1,3 +1,15 @@
+# v0.0.15 (Tue Jun 08 2021)
+
+#### ⚠️ Pushed to `main-dev`
+
+- Updated .autorc (25615845+Kariaro@users.noreply.github.com)
+
+#### Authors: 1
+
+- Kariaro (25615845+Kariaro@users.noreply.github.com)
+
+---
+
 # v0.0.14 (Mon Jun 07 2021)
 
 #### 🐛 Bug Fix
