@@ -3,6 +3,7 @@
     [
       "auto-plugin-auto-bumper",
       {
+		"scripted": true,
         "files": [
           {
             "path": "src/main/java/com/hardcoded/db/types/SMBlock.java",
@@ -18,8 +19,7 @@
           {
             "path": "res/test/test_0.js",
             "safeMatching": false
-          },
-          { "path": "res/test/test_1.js", "scripted": true }
+          }
         ]
       }
     ],
