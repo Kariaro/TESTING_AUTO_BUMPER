@@ -2,20 +2,20 @@ package com.hardcoded.util;
 
 public final class StringUtils {
 	// $auto-bumper-line
-	public static final String A_TEST = "0.0.20";
+	public static final String A_TEST = "0.0.21";
 	
 	// $auto-bumper-line
-	public static final String B_TEST = "0.0.20";
+	public static final String B_TEST = "0.0.21";
 	
 	// Nothing
 	public static final String C_TEST = "0.0.12";
 	
 	
-	public static final String B = "0.0.20"; // $auto-bumper
+	public static final String B = "0.0.21"; // $auto-bumper
 	public static final String C = "0.0.1";
-	public static final String D = "0.0.20"; // $auto-bumper
+	public static final String D = "0.0.21"; // $auto-bumper
 	public static final String E = "0.0.1";
-	public static final String F = "0.0.20"; // $auto-bumper
+	public static final String F = "0.0.21"; // $auto-bumper
 	public static final String LATEST_VERSION = "0.0.1";
 	public static final String VERSION_TEST = "0.0.1";
 	
