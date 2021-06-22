@@ -16,3 +16,6 @@ Check if source updates once again. Making sure the plugin works correctly.
 
 Test 6:
 Update source without prior updates.
+
+Test 7:
+Testing if bump version still works.
