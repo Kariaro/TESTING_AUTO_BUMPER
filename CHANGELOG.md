@@ -1,3 +1,15 @@
+# v0.0.21 (Tue Jun 22 2021)
+
+#### 🐛 Bug Fix
+
+- test: Fixed file versions test auto-bumper [#18](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/18) ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.20 (Tue Jun 22 2021)
 
 #### 🐛 Bug Fix
