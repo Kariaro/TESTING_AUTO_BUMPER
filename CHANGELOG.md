@@ -1,3 +1,15 @@
+# v0.0.20 (Tue Jun 22 2021)
+
+#### 🐛 Bug Fix
+
+- test: Adding email information [#17](https://github.com/Kariaro/TESTING_AUTO_BUMPER/pull/17) ([@Kariaro](https://github.com/Kariaro))
+
+#### Authors: 1
+
+- HardCoded ([@Kariaro](https://github.com/Kariaro))
+
+---
+
 # v0.0.19 (Tue Jun 22 2021)
 
 #### 🐛 Bug Fix
